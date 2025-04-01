@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .review {
+            font-style: italic;
+            color: #555;
+        }
+        .contact {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Products</h1>
+        
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>Description of Product 1</p>
+            <a href="#">Buy Now</a>
+            <p class="review">"Great product! Highly recommend." - Customer A</p>
+        </div>
+        
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>Description of Product 2</p>
+            <a href="#">Buy Now</a>
+            <p class="review">"Very useful and worth the price." - Customer B</p>
+        </div>
+        
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@yourwebsite.com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+    </div>
+</body>
+</html>
